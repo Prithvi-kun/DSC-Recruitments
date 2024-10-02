@@ -10,14 +10,14 @@ Output: [2,3,4,6,7]
 
 Answer:
 
-inlist=list(input("Enter values: ").split())
-outlist=[]
-def dupe(inlist):
+def dupe():
+    inlist=list(input("Enter values: ").split())
+    outlist=[]
     for i in inlist:
         if int(i) not in outlist:
             outlist.append(int(i))
     print(outlist)
-dupe(inlist)
+dupe()
 
 Output:
 

@@ -18,3 +18,8 @@ def dupe(inlist):
             outlist.append(int(i))
     print(outlist)
 dupe(inlist)
+
+Output:
+
+Enter values: 2 3 4 4 5
+[2, 3, 4, 5]

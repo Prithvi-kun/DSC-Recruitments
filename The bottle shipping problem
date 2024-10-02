@@ -7,7 +7,7 @@ The function should print the break-up of the number of cartons used in descendi
 
 Example Test Case:
 Input: 140
-Output: 2 xl, 1 large, 1 medium, 1 small 
+Output: 2 xl, 1 large, 1 medium, 1 small
 
 Answer:
 

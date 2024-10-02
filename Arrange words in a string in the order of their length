@@ -14,3 +14,6 @@ def asc(a):
     end=join(sort)
     print(end)
 a=input("Enter a sentence: ")
+
+Output:
+"a is this cool sentence"

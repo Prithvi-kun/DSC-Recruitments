@@ -11,8 +11,8 @@ Output: 2 xl, 1 large, 1 medium, 1 small
 
 Answer:
 
-bottles=int(input("Enter number of bottles: "))
-def carton(bottles):
+def carton():
+    bottles=int(input("Enter number of bottles: "))
     s,m,l,xl=6,12,24,48
     no_xl=no_l=no_m=no_s=0
     while bottles>=s:
@@ -31,7 +31,7 @@ def carton(bottles):
         else:
             break
     print(no_xl,"xl,",no_l,"large,",no_m,"medium and",no_s,"small")
-carton(bottles)
+carton()
 
 Output:
 

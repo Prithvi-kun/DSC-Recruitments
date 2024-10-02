@@ -8,13 +8,13 @@ Output: "a is this cool sentence"
 
 Answer:
 
-def asc(a):
+def asc():
+    a=input("Enter a sentence: ")
     words=a.split()
     sort=sorted(words,key=len)
     end=' '.join(sort)
     print(end)
-a=input("Enter a sentence: ")
-asc(a)
+asc()
 
 Output:
 

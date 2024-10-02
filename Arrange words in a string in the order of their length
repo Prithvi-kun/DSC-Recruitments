@@ -10,10 +10,13 @@ Answer:
 
 def asc(a):
     words=a.split()
-    sort=words.sorted(words,key=len)
-    end=join(sort)
+    sort=sorted(words,key=len)
+    end=' '.join(sort)
     print(end)
 a=input("Enter a sentence: ")
+asc(a)
 
 Output:
-"a is this cool sentence"
+
+Enter a sentence: Why so serious?
+so Why serious?

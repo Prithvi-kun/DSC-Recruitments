@@ -35,5 +35,5 @@ carton(bottles)
 
 Output:
 
-Enter number of bottles: 140
-2 xl, 1 large, 1 medium and 1 small
+Enter number of bottles: 69
+1 xl, 0 large, 1 medium and 1 small

@@ -30,6 +30,10 @@ def carton():
         elif (bottles>=s):
             no_s=bottles//s
             bottles-=(no_s*s)
+            if (bottles==0):
+                pass
+            elif (bottles>0):
+                no_s+=1
         else:
             break
     print(no_xl,"xl,",no_l,"large,",no_m,"medium and",no_s,"small")
